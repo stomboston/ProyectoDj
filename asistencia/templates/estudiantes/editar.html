@@ -1,0 +1,19 @@
+{% extends "plantilla.html" %}
+
+{% block titulo %} Editar Estudiantes {% endblock %}
+
+{% block contenido %}
+
+    <div class="card">
+        <div class="card-header">Editar estudiante</div>
+        <div class="card-body">
+            <h4 class="card-title">Datos del estudiante</h4>
+
+            {% include "estudiantes/formulario.html" %}
+
+        </div>
+        <div class="card-footer text-muted">©Made by: Me</div>
+    </div>
+    
+
+{% endblock %}
